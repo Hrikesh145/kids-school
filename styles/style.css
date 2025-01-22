@@ -359,7 +359,22 @@ main{
 .x-btn{
   justify-content: center;
   align-items: center;
-  
+}
+.white{
+  color: white;
+}
+.footer{
+  background-color: #01ACFD;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 100px 100px 100px 100px;
+
+}
+.what{
+  display: grid;
+  grid-gap: 10px;
+}
+ 
 /* media q */
 @media screen and (max-width:576px) {
   body, html {
