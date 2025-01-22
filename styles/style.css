@@ -7,6 +7,9 @@
     font-style: normal;
 }
 /* share style */
+*{
+  margin: 0;
+}
 .display-flex{
   display: flex;
 }
@@ -70,4 +73,27 @@
 .navbar img{
   height: 62px;
   width: 100%;  
+}
+.hamburger-menu {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25px;
+  cursor: pointer;
+}
+
+/* media q */
+@media screen and (max-width:576px) {
+  .nav-items,.nav-items-contact,.school{
+    display: none;
+  }
+  .hamburger-menu{
+    display: flex;
+    max-width: 30px;
+  }
+  .navbar{
+    border-bottom: 1px solid #FEA301;
+    padding: 10px;
+    margin: 0;
+  }
 }
