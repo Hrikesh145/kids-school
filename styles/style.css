@@ -377,6 +377,10 @@ main{
 .stories{
   background-image: linear-gradient(to top,#f1f5d4 30%,#FFFFFF 100%);
 }
+.x-btn{
+  margin: 20px;
+  
+}
 
 /* media q */
 @media screen and (max-width:576px) {
