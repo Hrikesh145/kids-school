@@ -374,7 +374,10 @@ main{
   display: grid;
   grid-gap: 10px;
 }
- 
+.stories{
+  background-image: linear-gradient(to top,#f1f5d4 30%,#FFFFFF 100%);
+}
+
 /* media q */
 @media screen and (max-width:576px) {
   body, html {
